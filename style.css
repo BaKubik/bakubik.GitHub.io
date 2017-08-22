@@ -1,6 +1,3 @@
-/* * {
-  border: 1px solid rgba(0, 0, 0, 0.5);
-} */
 
 /* Links */
 a,
@@ -51,17 +48,22 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 50px;
+  padding: 30px;
 }
 
 
 /*
  * Header
  */
+.masthead {
+
+}
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -151,5 +153,13 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
   }
 }
