@@ -129,6 +129,9 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.contact{
+    padding: 10px 30px;
+}
 
 /*
  * Affix and center
